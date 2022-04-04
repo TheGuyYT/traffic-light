@@ -1,1 +1,25 @@
-<xml xmlns="https://developers.google.com/blockly/xml"><block type="pxt-on-start" id="%_AIzHg#DN?DTx8kh*{a" x="0" y="0"/><block type="device_forever" id="(O2*oCiXMVZKV0OGiHAc" x="205" y="0"/></xml>
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="1K=Li$n5t,a:H^csvE6T">mode</variable></variables><block type="device_button_event" id="5Z+9fZ0#y8T6ykL.-*zR" x="20" y="20"><field name="NAME">Button.B</field></block><block type="device_button_event" id="ZMR)I7j16=CYI@-WYZBZ" x="283" y="20"><field name="NAME">Button.A</field></block><block type="device_forever" id="(O2*oCiXMVZKV0OGiHAc" x="545" y="20"><statement name="HANDLER"><block type="device_show_leds" id="2P2o4ovF]DPCr?yUV*!_"><field name="LEDS">`
+        . . # . . 
+        . . # . . 
+        . . # . . 
+        . . . . . 
+        . . # . .
+        `</field><next><block type="set_traffic_light_led" id="B0u=7K(de*nUZ,/yA:K`"><field name="ledColour">Kitronik_STOPbit.LightColours.Red</field><field name="illumination">Kitronik_STOPbit.DisplayLights.On</field><next><block type="set_traffic_light_led" id="ij%UoET=:5u387L2bG,-"><field name="ledColour">Kitronik_STOPbit.LightColours.Yellow</field><field name="illumination">Kitronik_STOPbit.DisplayLights.Off</field><next><block type="set_traffic_light_led" id="hhFM=6%ci+LQg8$qqAfF"><field name="ledColour">Kitronik_STOPbit.LightColours.Green</field><field name="illumination">Kitronik_STOPbit.DisplayLights.Off</field><next><block type="device_pause" id="Q:[m@Pj}pmMd|e{r|G|r"><value name="pause"><shadow type="timePicker" id="smNxK`BX_zx57C/6b,1-"><field name="ms">14000</field></shadow></value><next><block type="device_show_leds" id="K]p7,+$.zN%/VV8aB9zS"><field name="LEDS">`
+        . . . . . 
+        . . . . . 
+        # . # . # 
+        . . . . . 
+        . . . . .
+        `</field><next><block type="set_traffic_light_led" id="XrE`j%/@Ws+y`RR:h!H#"><field name="ledColour">Kitronik_STOPbit.LightColours.Red</field><field name="illumination">Kitronik_STOPbit.DisplayLights.On</field><next><block type="set_traffic_light_led" id="Hy2u,0wExyV[KHh,zBwS"><field name="ledColour">Kitronik_STOPbit.LightColours.Yellow</field><field name="illumination">Kitronik_STOPbit.DisplayLights.On</field><next><block type="set_traffic_light_led" id="Bdw~)vJ:.Jq7nyM7{aDq"><field name="ledColour">Kitronik_STOPbit.LightColours.Green</field><field name="illumination">Kitronik_STOPbit.DisplayLights.Off</field><next><block type="device_pause" id="Pr7i|K_MeBS{k[RB~D_z"><value name="pause"><shadow type="timePicker" id=".0Kqy?G{f4?.kFfbgF{E"><field name="ms">1000</field></shadow></value><next><block type="device_show_leds" id="FII{{uw.T5V)3v^uC8Vg"><field name="LEDS">`
+        . . . . . 
+        . . . . # 
+        . . . # . 
+        # . # . . 
+        . # . . .
+        `</field><next><block type="set_traffic_light_led" id="^gzhG{7o^d^${zI8HmAZ"><field name="ledColour">Kitronik_STOPbit.LightColours.Red</field><field name="illumination">Kitronik_STOPbit.DisplayLights.Off</field><next><block type="set_traffic_light_led" id="G###BUr1G:9x7;xiq+4a"><field name="ledColour">Kitronik_STOPbit.LightColours.Yellow</field><field name="illumination">Kitronik_STOPbit.DisplayLights.Off</field><next><block type="set_traffic_light_led" id="t98s+Q!8=P9UHTa?^mI$"><field name="ledColour">Kitronik_STOPbit.LightColours.Green</field><field name="illumination">Kitronik_STOPbit.DisplayLights.On</field><next><block type="device_pause" id="{ZCJpqJ2b@RN).D5BF-h"><value name="pause"><shadow type="timePicker" id="S/UtrOy1)Yy-6o@WFan2"><field name="ms">14000</field></shadow></value><next><block type="device_show_leds" id="9{@+KHKhwz7yrGWpeN3G"><field name="LEDS">`
+        . . . . . 
+        . . . . . 
+        # . # . # 
+        . . . . . 
+        . . . . .
+        `</field><next><block type="set_traffic_light_led" id="foq%;4f/Z(:T9r$f)s@R"><field name="ledColour">Kitronik_STOPbit.LightColours.Red</field><field name="illumination">Kitronik_STOPbit.DisplayLights.Off</field><next><block type="set_traffic_light_led" id="_dU4z`j!19Uoz-JEr#2g"><field name="ledColour">Kitronik_STOPbit.LightColours.Yellow</field><field name="illumination">Kitronik_STOPbit.DisplayLights.On</field><next><block type="set_traffic_light_led" id="Tx;iolf|sfs,3bSX7czj"><field name="ledColour">Kitronik_STOPbit.LightColours.Green</field><field name="illumination">Kitronik_STOPbit.DisplayLights.Off</field><next><block type="device_pause" id="H_!.8W9tR04E_LUkJF76"><value name="pause"><shadow type="timePicker" id="dVC`(6IH9r?{QeA1=/AQ"><field name="ms">1000</field></shadow></value></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></statement></block></xml>
