@@ -2,7 +2,7 @@ basic.forever(function () {
     basic.showLeds(`
         . . . . .
         . . . . .
-        # # # . #
+        # . # # #
         . . . . .
         . . . . .
         `)
@@ -23,9 +23,9 @@ basic.forever(function () {
     basic.pause(1000)
     basic.showLeds(`
         . # . . .
+        # . . . .
+        . # . . .
         . . # . .
-        . . . # .
-        . . . . #
         . . . # .
         `)
     Kitronik_STOPbit.trafficLightLED(Kitronik_STOPbit.LightColours.Red, Kitronik_STOPbit.DisplayLights.Off)

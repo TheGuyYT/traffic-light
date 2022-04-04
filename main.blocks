@@ -1,0 +1,25 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><block type="device_forever" id=",u(%nag/)YDB7:;6p(A~" x="0" y="0"><statement name="HANDLER"><block type="device_show_leds" id="2P2o4ovF]DPCr?yUV*!_"><field name="LEDS">`
+        . . . . . 
+        . . . . . 
+        # . # # # 
+        . . . . . 
+        . . . . .
+        `</field><next><block type="set_traffic_light_led" id="B0u=7K(de*nUZ,/yA:K`"><field name="ledColour">Kitronik_STOPbit.LightColours.Red</field><field name="illumination">Kitronik_STOPbit.DisplayLights.On</field><next><block type="set_traffic_light_led" id="ij%UoET=:5u387L2bG,-"><field name="ledColour">Kitronik_STOPbit.LightColours.Yellow</field><field name="illumination">Kitronik_STOPbit.DisplayLights.Off</field><next><block type="set_traffic_light_led" id="hhFM=6%ci+LQg8$qqAfF"><field name="ledColour">Kitronik_STOPbit.LightColours.Green</field><field name="illumination">Kitronik_STOPbit.DisplayLights.Off</field><next><block type="device_pause" id="v9iT!;{z0SF|lDzAdZoL"><value name="pause"><shadow type="timePicker" id="|KvVr79X%cbIU+mhAjba"><field name="ms">14000</field></shadow></value><next><block type="device_show_leds" id="K]p7,+$.zN%/VV8aB9zS"><field name="LEDS">`
+        . . # . . 
+        . . . . . 
+        . . # . . 
+        . . . . . 
+        . . # . .
+        `</field><next><block type="set_traffic_light_led" id="XrE`j%/@Ws+y`RR:h!H#"><field name="ledColour">Kitronik_STOPbit.LightColours.Red</field><field name="illumination">Kitronik_STOPbit.DisplayLights.On</field><next><block type="set_traffic_light_led" id="Hy2u,0wExyV[KHh,zBwS"><field name="ledColour">Kitronik_STOPbit.LightColours.Yellow</field><field name="illumination">Kitronik_STOPbit.DisplayLights.On</field><next><block type="set_traffic_light_led" id="Bdw~)vJ:.Jq7nyM7{aDq"><field name="ledColour">Kitronik_STOPbit.LightColours.Green</field><field name="illumination">Kitronik_STOPbit.DisplayLights.Off</field><next><block type="device_pause" id="PjBgAqyV:;H`j*ZV1]93"><value name="pause"><shadow type="timePicker" id="X(*{3bb7-Y=mV7b5p|c#"><field name="ms">1000</field></shadow></value><next><block type="device_show_leds" id="FII{{uw.T5V)3v^uC8Vg"><field name="LEDS">`
+        . # . . . 
+        # . . . . 
+        . # . . . 
+        . . # . . 
+        . . . # .
+        `</field><next><block type="set_traffic_light_led" id="^gzhG{7o^d^${zI8HmAZ"><field name="ledColour">Kitronik_STOPbit.LightColours.Red</field><field name="illumination">Kitronik_STOPbit.DisplayLights.Off</field><next><block type="set_traffic_light_led" id="G###BUr1G:9x7;xiq+4a"><field name="ledColour">Kitronik_STOPbit.LightColours.Yellow</field><field name="illumination">Kitronik_STOPbit.DisplayLights.Off</field><next><block type="set_traffic_light_led" id="t98s+Q!8=P9UHTa?^mI$"><field name="ledColour">Kitronik_STOPbit.LightColours.Green</field><field name="illumination">Kitronik_STOPbit.DisplayLights.On</field><next><block type="device_pause" id="1T/xO;^)zeRx`L|Y7;U^"><value name="pause"><shadow type="timePicker" id="QD3jo3jx/urMOng`q8lg"><field name="ms">14000</field></shadow></value><next><block type="device_show_leds" id="9{@+KHKhwz7yrGWpeN3G"><field name="LEDS">`
+        . . # . . 
+        . . . . . 
+        . . # . . 
+        . . . . . 
+        . . # . .
+        `</field><next><block type="set_traffic_light_led" id="foq%;4f/Z(:T9r$f)s@R"><field name="ledColour">Kitronik_STOPbit.LightColours.Red</field><field name="illumination">Kitronik_STOPbit.DisplayLights.Off</field><next><block type="set_traffic_light_led" id="_dU4z`j!19Uoz-JEr#2g"><field name="ledColour">Kitronik_STOPbit.LightColours.Yellow</field><field name="illumination">Kitronik_STOPbit.DisplayLights.On</field><next><block type="set_traffic_light_led" id="Tx;iolf|sfs,3bSX7czj"><field name="ledColour">Kitronik_STOPbit.LightColours.Green</field><field name="illumination">Kitronik_STOPbit.DisplayLights.Off</field><next><block type="device_pause" id="H_!.8W9tR04E_LUkJF76"><value name="pause"><shadow type="timePicker" id="dVC`(6IH9r?{QeA1=/AQ"><field name="ms">1000</field></shadow></value><next><block type="device_pause" id="iQwPbT6mv.O~+wuT+7oY"><value name="pause"><shadow type="timePicker" id="vvQuhDqK3!6(XYHu$%0a"><field name="ms">1000</field></shadow></value></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></next></block></statement></block></xml>
